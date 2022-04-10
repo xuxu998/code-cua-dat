@@ -36,6 +36,10 @@ uint8_t Init_Stack_Type(int Type)
     }
     return ACTION_OK;
 }
+uint8_t Return(void)
+{
+    return ACTION_NOT_OK;
+}
 uint8_t PushBack(void *value)
 {
     if(Stack == NULL)
