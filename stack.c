@@ -41,6 +41,7 @@ uint8_t Return(void)
     int a = 1;
     int b = 2;
     return ACTION_NOT_OK;
+    return 10;
 }
 uint8_t PushBack(void *value)
 {
