@@ -38,6 +38,9 @@ uint8_t Init_Stack_Type(int Type)
 }
 uint8_t Return(void)
 {
+    int a = 1;
+    int b = 2;
+    int c = 10;
     return ACTION_NOT_OK;
 }
 uint8_t PushBack(void *value)
@@ -45,7 +48,7 @@ uint8_t PushBack(void *value)
     if(Stack == NULL)
     {
         if(StacKType == INT_TYPE_STACK)
-        Stack = malloc()
+        Stack = malloc();
         
     }
 }
