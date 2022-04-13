@@ -40,6 +40,7 @@ uint8_t Return(void)
 {
     int a = 1;
     int b = 2;
+    int o=10;
     int d = 20;
     return ACTION_NOT_OK;
     return 10;
