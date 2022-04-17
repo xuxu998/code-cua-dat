@@ -3,6 +3,7 @@
 #include "stack.h"
 void *Stack;
 uint8_t StacKType = 0;
+int av = 10;
 uint8_t Init_Stack_Type(int Type)
 {
     if(Stack == NULL)
