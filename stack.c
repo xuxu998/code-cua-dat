@@ -2,6 +2,7 @@
 #include <stdint.h>
 #include "stack.h"
 void *Stack;
+int a = 10;
 uint8_t StacKType = 0;
 uint8_t Init_Stack_Type(int Type)
 {
