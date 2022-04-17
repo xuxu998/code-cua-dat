@@ -2,6 +2,7 @@
 #include <stdint.h>
 #include "stack.h"
 void *Stack;
+int a = 10;
 uint8_t StacKType = 0;
 uint8_t Init_Stack_Type(int Type)
 {
@@ -41,6 +42,7 @@ uint8_t Return(void)
     int a = 1;
     int b = 2;
     int c = 10;
+    int d = 20;
     return ACTION_NOT_OK;
     return 10;
 }
