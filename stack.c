@@ -50,6 +50,11 @@ uint8_t PushBack(void *value)
     {
         if(StacKType == INT_TYPE_STACK)
         Stack = malloc();
+<<<<<<< HEAD
+=======
+        int c =10;
+        int d = 20;
+>>>>>>> newBranch
         
     }
 }
