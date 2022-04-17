@@ -46,7 +46,9 @@ uint8_t PushBack(void *value)
     if(Stack == NULL)
     {
         if(StacKType == INT_TYPE_STACK)
-        Stack = malloc()
+        Stack = malloc();
+        int c =10;
+        int d = 20;
         
     }
 }
